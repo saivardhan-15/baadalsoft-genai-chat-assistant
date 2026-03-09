@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Greeting",
+    "content": "Hello! Hi there! Welcome to our platform assistant. I can help you with account setup, password reset, billing questions, API usage, privacy policies, and troubleshooting issues. Feel free to ask me anything related to the platform."
+  },
+  {
+    "title": "Assistant Introduction",
+    "content": "I am a virtual support assistant designed to help users with common platform questions. I can guide you through account creation, password recovery, billing information, API limits, supported browsers, and privacy settings."
+  },
+  {
+    "title": "User Thanks Response",
+    "content": "You're welcome! I'm happy to help. If you have more questions about your account, billing, or platform features, feel free to ask anytime."
+  },
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password from Settings > Security. They must verify their email address via a 6-digit one-time passcode before entering a new password. Passwords must be at least 12 characters long and contain uppercase letters, lowercase letters, numbers, and special characters."
+  },
+  {
+    "title": "Account Creation",
+    "content": "Users can create a new account by clicking on the 'Sign Up' button on the homepage. They will need to provide a valid email address, a secure password, and their full name. After submitting the form, a confirmation email will be sent containing an activation link."
+  },
+  {
+    "title": "Billing and Subscription",
+    "content": "We offer three subscription tiers: Basic, Pro, and Enterprise. The Basic plan is free and provides core features. Pro costs $15 per month and includes priority support and advanced analytics. Enterprise pricing is custom. You can manage your subscription and billing details in Account Settings > Billing."
+  },
+  {
+    "title": "API Rate Limits",
+    "content": "To ensure fair usage, our public API is rate-limited. The free tier allows up to 100 requests per minute per IP address. Pro users are allowed 1000 requests per minute. Exceeding these limits will result in a 429 Too Many Requests HTTP status code."
+  },
+  {
+    "title": "Data Deletion and Privacy",
+    "content": "In compliance with GDPR and CCPA regulations, users have the right to request deletion of their personal data. To permanently delete an account and all associated data, users must go to Settings > Privacy > Delete Account."
+  },
+  {
+    "title": "Supported Web Browsers",
+    "content": "Our platform supports modern browsers including the latest versions of Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. Internet Explorer is not supported and may cause functionality issues."
+  },
+  {
+    "title": "Login Help",
+    "content": "If you cannot log in, first check your email and password. If you forgot your password, click the 'Forgot Password' link on the login page to reset it. If the issue continues, contact customer support."
+  }
+]
