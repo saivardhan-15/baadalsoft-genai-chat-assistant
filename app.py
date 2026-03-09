@@ -121,5 +121,11 @@ Answer:
         return jsonify({"error": str(e)}), 500
 
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+import os
+
+if __name__ == "__main__":
+    # Get the port from environment variable (Render sets this automatically)
+    port = int(os.environ.get("PORT", 5000))
+    
+    # Run Flask app on all interfaces (0.0.0.0) for deployment, debug mode for local testing
+    app.run(host="0.0.0.0", port=port, debug=True)
